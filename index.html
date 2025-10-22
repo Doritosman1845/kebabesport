@@ -17,18 +17,16 @@
     <section id="kontakt" class="contact">
       <h2>Kontakt oss</h2>
 
-      <!-- BYTT UT https://formspree.io/f/ENDPOINT med din Formspree-endpoint -->
-      <!-- action gjør at skjemaet fungerer også uten JavaScript (fallback) -->
+
       <form id="contactForm" class="contact-form"
             action="https://formspree.io/f/myznqjpb" method="POST">
-        <!-- Honeypot (skjult for ekte brukere) -->
+        
         <div class="hp" aria-hidden="true">
           <label>La dette stå tomt: <input name="_gotcha" tabindex="-1" autocomplete="off"></label>
         </div>
 
-        <!-- Redirect til takk-side om du vil (fungerer som fallback) -->
-        <input type="hidden" name="_next" value="thanks.html">
-        <input type="hidden" name="_subject" value="Ny melding fra Kebab Esport nettside">
+
+
 
         <label for="navn">Navn</label>
         <input id="navn" name="navn" type="text" required>
@@ -41,17 +39,17 @@
 
         <button type="submit">Send melding</button>
       </form>
-
-      <p class="note">Siden bruker JavaScript for asynkron innsending vil du få en bedre brukeropplevelse, men skjemaet fungerer fortsatt uten JavaScript pga. action-attributtet.</p>
+      
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>© 2025 Kebab Esport – Alle rettigheter reservert</p>
+      <p>© 2025 Kebab Esport ||| Alle rettigheter reservert</p>
     </div>
   </footer>
 
   <script src="script.js"></script>
 </body>
 </html>
+
